@@ -1,0 +1,41 @@
+# Redirect default Netlify subdomain to primary domain
+https://ironcovesolutions.netlify.com/* https://ironcovesolutions.com/:splat 301!
+# Main redirects from old twitter bootstrap site
+/microsoft-proofpoint /technology/microsoft-proofpoint
+/expertise/developer/index /expertise/developer
+/mailbox-folder-limits-microsoft-office-365 /blog/mailbox-folder-limits-microsoft-office-365
+/index /
+/force-tls-office-365 /blog/how-to-force-tls-on-office-365
+/microsoft-proofpoint /technology/microsoft-proofpoint
+/expertise/migration-services/email expertise/email-migration
+/case-studies/index /case-studies
+/careers/list /career
+/case-studies/okta-sso-identity-management /case-studies/okta-sso-identity-management
+/sharepoint-online-file-limits-for-microsoft-office-365/ /blog/sharepoint-online-file-limits-microsoft-office-365
+/expertise/migration-services/file-server /expertise/file-server-migration
+/expertise/single-sign-on/okta-microsoft-office-365 /expertise/single-sign-on-deployment
+/Auth0 /technology/auth0
+/thank-you /success
+/technology/amazon-web-services /technology
+/expertise/migration-services/email /expertise/email-migration
+/expertise/single-sign-on /expertise/single-sign-on-deployment
+/working-room-mailbox-office-365 /technology/microsoft-office-365   
+/expertise/cloud /expertise/cloud-deployment
+/careers/list /careers
+/expertise/migration-services /expertise/file-server-migration
+/configure-office-365-account-within-outlook-2007/ /technology/microsoft-office-365 
+/technology/hp-voltage /technology/voltage
+/single-sign-on/okta-microsoft-office-365 /expertise/single-sign-on-deployment 
+/expertise/single-sign-on/okta-microsoft-office-365 /expertise/single-sign-on-deployment
+/technology/ringcentral /technology
+/microsoft-office-365-minimum-software-requirements /technology/microsoft-office-365 
+/service /expertise
+/how-to-manually-connect-outlook-to-office-365-exchange-2013-upgraded-version /technology/microsoft-office-365 
+/sharepoint-online-file-limits-for-microsoft-office-365 /technology/microsoft-office-365 
+/expertise/migration-services/file-server /expertise/file-server-migration 
+/imap-pop-account-set-up-for-office-365-in-outlook-2003 / /technology/microsoft-office-365 
+/expertise/training /expertise
+/voltage/vsn-sitekit/login-pages.php /technology/voltage/
+/technology/microsoft/office-365-plan1 /technology/plans/microsoft/office-365-plan-1
+/okta /technology/okta
+/microsoft /technology/microsoft-office-365

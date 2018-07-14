@@ -1,0 +1,9 @@
+.alt-colors {
+  > section {
+    background-color: desaturate(lighten(_palette(bg-alt),2),1);
+  &:nth-child(2n) {
+    background-color: desaturate(lighten(_palette(bg-alt),4),2);
+  }
+  }
+
+}

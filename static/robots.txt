@@ -1,0 +1,73 @@
+Sitemap: https://www.ironcovesolutions.com/sitemap.xml
+
+# Google Image
+User-agent: Googlebot-Image
+Disallow:
+Allow: /*
+
+# Google AdSense
+User-agent: Mediapartners-Google
+Disallow:
+
+# digg mirror
+User-agent: duggmirror
+Disallow: /
+
+# global
+User-agent: *
+Disallow: /public_html/case-study
+
+User-agent: *
+Disallow: /public_html/case-study
+Disallow: /services/$
+Disallow: /proofpoint-services/
+Disallow: /plugins/$
+Disallow: /Howard/$
+Disallow: /vgs/$
+Disallow: /hit/$
+Disallow: /tag/$
+Disallow: /wp-content/$
+Disallow: /zetta.php/$
+Disallow: /onedrive-business/$
+Disallow: /company/employment_application.html/$
+Disallow: /services/managed/managed_service_los_angeles.html/$
+Disallow: /company/exchange-administrator-job-los-angeles.html/$
+Disallow: /services/microsoft/office365plans/migration_plan.html/$
+Disallow: /okta-partner-portal-sign-on.php/cisco-cloud-security/$
+Disallow: /microsoft-office-365-elements/microsoft-office-365.php/$
+Disallow: /jobs.html/$
+Disallow: /company/managed-service-engineer-los-angeles.html/$
+Disallow: /microsoft-office-365/e5/e5-nda/$
+Disallow: /master-product-page-zetta-2/$
+Disallow: /page.xml/$
+Disallow: /page-sitemap.xml/$
+Disallow: /photo-albums/?term&orderby=date&order=ASC/$
+Disallow: /services/zetta/backup-netapp-server-cloud-to-the-cloud-with-zetta.html/$
+Disallow: /proofpoint/mcafee-to-proofpoint/$
+Disallow: /wp-content/uploads/2015/10/magic_quadrant_for_identity_June_2014.pdf
+Disallow: /zetta/contact
+Disallow: /dropbox-reseller-deployment/pdf/about
+Disallow: /vgs/glnoa.php?hl=Ae-dil-ha-mushil-full-moive-dwonlod
+Disallow: /proofpoint/mcafee-to-proofpoint/reseller/privacy
+Disallow: /ironcove/exchange-hybrid-deployment-and-migration-with-office-365/
+Disallow: /pdfs/ysi/YSI_Enterprise_Overview.pdf
+Disallow: /packages-for-proofpoint/
+Disallow: /kpeUR/
+Disallow: /privacy/contact
+Disallow: /google/amazon-workspaces
+Disallow: /microsoft-office-365/e5/e5-nda/index
+Disallow: /proofpoint-cloud/amazon.php
+Disallow: /vgs/glnoa.php?hl=esse-bumbum-Faz-Tum-balaca
+Disallow: /exchange-online-hybrid-deployment.php/okta-consulting-reseller
+Disallow: /office-365-health-hipaa-services/amazon
+Disallow: /cloud-hosted-adfs-office-365.php/zetta
+Disallow: /expertise/technology/okta
+Disallow: /global-relay-archive/page-services.html
+Disallow: /global-relay-archive/page-services.html
+Disallow: /office-365/contact
+Disallow: /images/Office-365-Security.pdf
+Disallow: /dropbox-reseller-deployment/zetta
+Disallow: /office-365/videos
+Disallow: /microsoft-office-365/e5/
+Disallow: /es/cisco-cloud-security
+Disallow: /wp-content/uploads/2015/10/magic_quadrant_for_identity_June_2014.pdf

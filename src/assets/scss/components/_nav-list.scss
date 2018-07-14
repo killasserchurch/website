@@ -1,0 +1,24 @@
+.flex-nav {
+  // border: 1px solid black;
+  color: #000;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.flex-nav li {
+  // flex: 1;
+}
+
+.flex-nav a {
+  color: #3770b7;
+}
+
+.flex-nav a:hover {
+  // background-color: #000;
+  // color: #fff;
+  // text-decoration: underline;
+  // border-bottom: 1px solid #9e1c20 !important;
+  color: #9e1c20 !important;
+}

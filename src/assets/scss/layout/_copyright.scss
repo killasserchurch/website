@@ -1,0 +1,31 @@
+.copyright-large {
+  display: block;
+  color: #000;
+
+  @include breakpoint(xsmall) {
+    display: none;
+  }
+}
+
+.copyright-mobile {
+  display: none;
+
+  @include breakpoint(xsmall) {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2000;
+    border-top: 1px solid #f5f3f7;
+    background: #fff;
+    justify-content: space-evenly;
+    align-items: center;
+
+    a {
+      padding: 1rem;
+      font-size: 1rem;
+      color: #000;
+    }
+  }
+}

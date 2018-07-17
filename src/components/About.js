@@ -14,8 +14,6 @@ const About = props => {
     sectionTwoContentLeft,
     sectionTwoContentMiddle,
     sectionTwoContentRight,
-    sectionThreeHeading,
-    sectionThreeContent,
     sectionFourHeading,
     sectionFourContent,
   } = props.data.contentfulAbout

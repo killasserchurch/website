@@ -39,16 +39,12 @@ export const aboutQuery = graphql`
       title
       slug
       metaDescription
-      sectionTwoHeading
-      sectionThreeHeading
-      videoLeft
-      videoRight
-      sectionFourHeading
       headerBackgroundImage {
         file {
           url
         }
       }
+      sectionTwoHeading
       sectionTwoContentLeft {
         childMarkdownRemark {
           html
@@ -64,11 +60,7 @@ export const aboutQuery = graphql`
           html
         }
       }
-      sectionThreeContent {
-        childMarkdownRemark {
-          html
-        }
-      }
+      sectionFourHeading
       sectionFourContent {
         childMarkdownRemark {
           html

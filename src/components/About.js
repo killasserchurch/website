@@ -15,8 +15,6 @@ const About = props => {
     sectionTwoContentMiddle,
     sectionTwoContentRight,
     sectionThreeHeading,
-    videoLeft,
-    videoRight,
     sectionThreeContent,
     sectionFourHeading,
     sectionFourContent,
@@ -78,30 +76,6 @@ const About = props => {
               )}
             </div>
           </div>
-        </div>
-      </section>
-      <section id="section-three">
-        <div className="inner">
-          <header>
-            <BannerSection sectionContent={sectionThreeHeading} />
-          </header>
-          <div className="row">
-            <div className="6u 12u$(medium)">
-              <Video video={videoLeft} />
-            </div>
-            <div className="6u 12u$(medium)">
-              <Video video={videoRight} />
-            </div>
-          </div>
-          {sectionThreeContent !== null ? (
-            <div
-              dangerouslySetInnerHTML={{
-                __html: sectionThreeContent.childMarkdownRemark.html,
-              }}
-            />
-          ) : (
-            undefined
-          )}
         </div>
       </section>
       <section id="section-four">

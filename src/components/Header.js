@@ -15,8 +15,8 @@ const Header = props => (
       <nav>
         <ul className="flex-nav">
           <li>
-            <Link to="/expertise" title="Expertise">
-              Expertise
+            <Link to="/masses" title="Expertise">
+             Masses 
             </Link>
           </li>
           <li>

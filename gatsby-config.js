@@ -137,7 +137,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Ruda`, `Open Sans:300,800i`],
+        fonts: [`Lato:400,700i`, `Open Sans:300,800i`],
       },
     },
     `gatsby-plugin-styled-components`,

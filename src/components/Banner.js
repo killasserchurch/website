@@ -5,7 +5,7 @@ const Banner = props => (
   <section id="banner" className="major">
     <div className="inner">
       <header className="major">
-        <h1>{props.bannerTitle}</h1>
+        <h1>Failte Cill Lasrach</h1>
       </header>
       <div className="content">
         <h2>{props.bannerH2}</h2>

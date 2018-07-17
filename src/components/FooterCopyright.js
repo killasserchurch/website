@@ -25,33 +25,26 @@ const FooterCopyright = () => (
     <p className="copyright-large">
       <span>&copy; 2018</span> |{' '}
       <span>
-        <Link to="/" title="Iron Cove Solutions Home">
-          Iron Cove Solutions
+        <Link to="/" title="Killasser Parish">
+          Killasser Parish 
         </Link>
       </span>
-      |{' '}
-      <span>
-        <Link to="/privacy" title="Privacy">
-          Privacy
-        </Link>
-      </span>{' '}
-      | <span>Simplifying Cloud-Based Intention</span>
     </p>
     <p className="copyright-mobile">
-      <Link to="/" title="Iron Cove Solutions Home" className="fa fa-home">
+      <Link to="/" title="Killasser Parish" className="fa fa-home">
         <span>Home</span>
       </Link>
       <a
         className="fa fa-envelope"
-        title="Iron Cove Solutions Email"
-        href="mailto:sales@ironcovesolutions.com?subject=Interested in Learning more about Iron Cove Solutions"
+        title="Killasser Parish Email"
+        href="mailto:fatherjohn.com?subject=Interested in Killasser Parish"
       >
         <span>Email</span>
       </a>
       <a
         className="fa fa-phone"
-        href="tel:1-888-959-2825"
-        title="Iron Cove Solutions Phone"
+        href="tel:"
+        title="Killasser Parish Phone"
       >
         <span>Call</span>
       </a>

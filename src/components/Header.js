@@ -15,23 +15,13 @@ const Header = props => (
       <nav>
         <ul className="flex-nav">
           <li>
-            <Link to="/masses" title="Expertise">
+            <Link to="/masses" title="Masses">
              Masses 
             </Link>
           </li>
           <li>
-            <Link to="/technology" title="Technology">
+            <Link to="/newsletter" title="Newsletter">
               Technology
-            </Link>
-          </li>
-          <li>
-            <Link to="/video" title="Video">
-              Video
-            </Link>
-          </li>
-          <li>
-            <Link to="/workflow" title="Workflow">
-              Workflow
             </Link>
           </li>
           <li>

@@ -10,7 +10,7 @@ const Menu = props => (
           <Link
             onClick={props.onToggleMenu}
             to="/"
-            title="Iron Cove Solutions Home"
+            title="Killasser Parish Home"
           >
             Home
           </Link>
@@ -18,49 +18,6 @@ const Menu = props => (
         <li>
           <Link onClick={props.onToggleMenu} to="/about" title="About">
             About
-          </Link>
-        </li>
-        <li>
-          <Link onClick={props.onToggleMenu} to="/career" title="Career">
-            Careers
-          </Link>
-        </li>
-        <li>
-          <Link
-            onClick={props.onToggleMenu}
-            to="/case-studies"
-            title="case-studies"
-          >
-            Case Studies
-          </Link>
-        </li>
-        <li>
-          <Link onClick={props.onToggleMenu} to="/expertise" title="expertise">
-            Expertise
-          </Link>
-        </li>
-        <li>
-          <a
-            onClick={props.onToggleMenu}
-            title="Support"
-            href="https://support.ironcovesolutions.com/hc/en-us"
-            rel="nofollow"
-          >
-            Support
-          </a>
-        </li>
-        <li>
-          <Link
-            onClick={props.onToggleMenu}
-            to="/technology"
-            title="technology"
-          >
-            Technology
-          </Link>
-        </li>
-        <li>
-          <Link onClick={props.onToggleMenu} to="/video" title="Videos">
-            Video
           </Link>
         </li>
         <li>

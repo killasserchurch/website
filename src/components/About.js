@@ -1,7 +1,6 @@
 import React from 'react' // eslint-disable-line import/no-extraneous-dependencies
 // import YouTube from 'react-youtube'
 import PropTypes from 'prop-types'
-import Video from './Video'
 import BannerLanding from './BannerLanding'
 import BannerSection from './BannerSection'
 

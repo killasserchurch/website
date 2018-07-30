@@ -14,7 +14,7 @@ const NewsletterPage = props => (
       <title>{`Newsletter | ${props.data.site.siteMetadata.title}`}</title>
       <meta
         name="description"
-        content={props.data.contentfulAbout.metaDescription}
+        content={props.data.contentfulNewsletter.metaDescription}
       />
     </Helmet>
     <Newsletter data={props.data} />

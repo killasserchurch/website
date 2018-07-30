@@ -39,11 +39,6 @@ export const newsletterQuery = graphql`
       title
       slug
       metaDescription
-      headerBackgroundImage {
-        file {
-          url
-        }
-      }
       sectionTwoHeading
       sectionTwoContentLeft {
         childMarkdownRemark {

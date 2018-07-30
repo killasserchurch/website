@@ -13,7 +13,7 @@ const Banner = props => (
         <ul className="actions">
           <li>
             <a href="/#aboveContact" className="button next scrolly">
-              Get Started
+              Contact Us 
             </a>
           </li>
         </ul>

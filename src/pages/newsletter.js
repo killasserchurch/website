@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 import config from '../data/SiteConfig'
 
 // components
-import NewsLetter from 'components/Newsletter';
+import Newsletter from 'components/Newsletter';
 
 const NewsletterPage = props => (
   <div>

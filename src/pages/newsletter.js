@@ -25,7 +25,7 @@ NewsletterPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default NewsLetterPage
+export default NewsletterPage
 
 export const newsletterQuery = graphql`
   query newsletterPageQuery {

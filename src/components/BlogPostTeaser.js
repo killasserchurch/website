@@ -1,7 +1,7 @@
 import React from 'react' // eslint-disable-line import/no-extraneous-dependencies
 import Link from 'gatsby-link'
 import PropTypes from 'prop-types'
-import icsLogoBg from '../assets/images/logos/300x300-ics-logo.png'
+import icsLogoBg from '../assets/images/300x300-church-family.png'
 
 const BlogPostTeaser = ({ node }) => (
   <div className="item">

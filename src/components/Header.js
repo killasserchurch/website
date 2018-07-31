@@ -4,13 +4,14 @@ import Link from 'gatsby-link'
 import PropTypes from 'prop-types'
 
 // images
-import logo from '../assets/images/logos/ics-logo-new.png'
 
 const Header = props => (
   <div>
     <header id="header" className="alt">
       <Link to="/" className="logo" title="Iron Cove Solutions">
-       <h1 style={{color: '#000000', fontSize: '2.2rem'}}>Killasser Parish</h1> 
+        <h1 style={{ color: '#000000', fontSize: '2.2rem' }}>
+          Killasser Parish
+        </h1>
       </Link>
       <nav>
         <ul className="flex-nav">
@@ -21,7 +22,7 @@ const Header = props => (
           {/* </li> */}
           <li>
             <Link to="/about" title="Newsletter">
-             About 
+              About
             </Link>
           </li>
           {/* <li> */}

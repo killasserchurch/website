@@ -8,12 +8,12 @@ import Banner from './Banner'
 import BlogPostTeaser from './BlogPostTeaser'
 
 // images
-import gSuiteBg from '../assets/images/gsuite-bg.jpg'
-import icsExperienceBg from '../assets/images/ics-city-bg.jpg'
-import icsTechnologyBg from '../assets/images/ics-technology-bg.jpg'
-import microsoftBg from '../assets/images/dropbox-city-scape-bg.jpg'
-import dropboxBg from '../assets/images/computer-sunglass-notebook-iphone.jpg'
-import oktaBg from '../assets/images/okta-highways-bg.jpg'
+import sacramentsBg from '../assets/images/alter.jpg'
+import aboutBg from '../assets/images/closeup-inside-side-church.jpg'
+import eventsBg from '../assets/images/pews.jpg'
+import newsletterBg from '../assets/images/bible.jpg'
+import pastoralCouncilBg from '../assets/images/alter-ceiling.jpg'
+import donationsBg from '../assets/images/offering-candles.jpg'
 
 const Home = props => {
   const {
@@ -57,7 +57,7 @@ const Home = props => {
 
       <div id="main">
         <section id="one" className="tiles">
-          <article style={{ backgroundImage: `url(${icsExperienceBg})` }}>
+          <article style={{ backgroundImage: `url(${sacramentsBg})` }}>
             <header className="major">
               <h3>{boxOneHeading}</h3>
               {boxOneDescription !== null || boxOneDescription !== undefined ? (
@@ -76,7 +76,7 @@ const Home = props => {
               title={boxOneHeading}
             />
           </article>
-          <article style={{ backgroundImage: `url(${icsTechnologyBg})` }}>
+          <article style={{ backgroundImage: `url(${aboutBg})` }}>
             <header className="major">
               <h3>{boxTwoHeading}</h3>
               {boxTwoDescription !== null || boxTwoDescription !== undefined ? (
@@ -95,7 +95,7 @@ const Home = props => {
               title={boxTwoHeading}
             />
           </article>
-          <article style={{ backgroundImage: `url(${oktaBg})` }}>
+          <article style={{ backgroundImage: `url(${eventsBg})` }}>
             <header className="major">
               <h3>{boxThreeHeading}</h3>
               {boxThreeDescription !== null ||
@@ -115,7 +115,7 @@ const Home = props => {
               title={boxThreeHeading}
             />
           </article>
-          <article style={{ backgroundImage: `url(${microsoftBg})` }}>
+          <article style={{ backgroundImage: `url(${newsletterBg})` }}>
             <header className="major">
               <h3>{boxFourHeading}</h3>
               {boxFourDescription !== null ||
@@ -135,7 +135,7 @@ const Home = props => {
               title={boxFourHeading}
             />
           </article>
-          <article style={{ backgroundImage: `url(${dropboxBg})` }}>
+          <article style={{ backgroundImage: `url(${pastoralCouncilBg})` }}>
             <header className="major">
               <h3>{boxFiveHeading}</h3>
               {boxFiveDescription !== null ||
@@ -155,7 +155,7 @@ const Home = props => {
               title={boxFiveHeading}
             />
           </article>
-          <article style={{ backgroundImage: `url(${gSuiteBg})` }}>
+          <article style={{ backgroundImage: `url(${donationsBg})` }}>
             <header className="major">
               <h3>{boxSixHeading}</h3>
               {boxSixDescription !== null || boxSixDescription !== undefined ? (

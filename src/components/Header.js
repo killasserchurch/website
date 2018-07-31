@@ -14,18 +14,18 @@ const Header = props => (
       </Link>
       <nav>
         <ul className="flex-nav">
-          <li>
-            <Link to="/masses" title="Masses">
-             Masses 
-            </Link>
-          </li>
+          {/* <li> */}
+          {/*   <Link to="/masses" title="Masses"> */}
+          {/*    Masses  */}
+          {/*   </Link> */}
+          {/* </li> */}
           <li>
             <Link to="/about" title="Newsletter">
              About 
             </Link>
           </li>
           {/* <li> */}
-          {/*    <Link to="/newsletter" title="Newsletter"> */} */}
+          {/*    <Link to="/newsletter" title="Newsletter"> */}
           {/*     Newsletter */}
           {/*   </Link> */}
           {/* </li> */}

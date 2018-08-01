@@ -7,8 +7,7 @@ const Blog = props => (
     <section id="blog">
       <div className="inner">
         <header>
-          <h1>Blog</h1>
-          <h2>Posts: {props.data.allContentfulBlog.totalCount}</h2>
+          <h1>Current Events</h1>
         </header>
         <div className="action">
           {props.data.allContentfulBlog.edges.map(edge => (

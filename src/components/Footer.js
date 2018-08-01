@@ -38,6 +38,11 @@ const Footer = () => (
           </Link>
         </li>
         <li>
+          <Link to="/blog" title="Events">
+            <span className="label">Events</span>
+          </Link>
+        </li>
+        <li>
           <Link to="/sacraments" title="Sacraments">
             <span className="label">Sacraments</span>
           </Link>

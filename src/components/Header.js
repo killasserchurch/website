@@ -37,7 +37,7 @@ const Header = props => (
           </li>
           <li>
             <Link to="/blog" title="Blog">
-              Blog
+              Events
             </Link>
           </li>
           <li>

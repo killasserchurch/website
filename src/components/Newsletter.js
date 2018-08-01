@@ -15,7 +15,7 @@ const Newsletter = props => {
     sectionTwoContentRight,
     sectionFourHeading,
     sectionFourContent,
-  } = props.data.contentfulAbout
+  } = props.data.contentfulNewsletter
 
   return (
     <div id="main" className="alt-colors">

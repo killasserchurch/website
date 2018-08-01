@@ -25,11 +25,16 @@ const Header = props => (
               About
             </Link>
           </li>
-          {/* <li> */}
-          {/*    <Link to="/newsletter" title="Newsletter"> */}
-          {/*     Newsletter */}
-          {/*   </Link> */}
-          {/* </li> */}
+          <li>
+            <Link to="/sacraments" title="Sacraments">
+              Sacraments
+            </Link>
+          </li>
+          <li>
+            <Link to="/newsletter" title="Newsletter">
+              Newsletter
+            </Link>
+          </li>
           <li>
             <Link to="/blog" title="Blog">
               Blog

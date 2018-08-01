@@ -5,7 +5,6 @@ import Helmet from 'react-helmet' // eslint-disable-line import/no-extraneous-de
 
 // custom components
 import Banner from './Banner'
-import BlogPostTeaser from './BlogPostTeaser'
 
 // images
 import sacramentsBg from '../assets/images/alter.jpg'
@@ -15,13 +14,11 @@ import newsletterBg from '../assets/images/bible.jpg'
 import pastoralCouncilBg from '../assets/images/alter-ceiling.jpg'
 import donationsBg from '../assets/images/offering-candles.jpg'
 
-const Home = props => {
+const Sacraments = props => {
   const {
     title,
     metaDescription,
     bannerTitle,
-    bannerH2,
-    bannerH3,
     bannerText,
     boxOneHeading,
     boxOneDescription,
@@ -41,7 +38,7 @@ const Home = props => {
     boxSixHeading,
     boxSixDescription,
     boxSixLink,
-  } = props.data.contentfulHome
+  } = props.data.contentfulSacraments
 
   return (
     <React.Fragment>
@@ -49,13 +46,6 @@ const Home = props => {
         <title>{`${title} | ${props.data.site.siteMetadata.title}`}</title>
         <meta name="description" content={metaDescription} />
       </Helmet>
-
-      <Banner
-        bannerTitle={bannerTitle}
-        bannerH2={bannerH2}
-        bannerH3={bannerH3}
-        bannerText={bannerText}
-      />
 
       <div id="main">
         <section id="one" className="tiles">
@@ -177,27 +167,13 @@ const Home = props => {
             />
           </article>
         </section>
-        <section id="blog">
-          <div className="inner">
-            <header>
-              <h2>
-                <Link to="/blog">Current Events</Link>
-              </h2>
-              <div className="action blog-post items">
-                {props.data.allContentfulBlog.edges.map(edge => (
-                  <BlogPostTeaser key={edge.node.slug} node={edge.node} />
-                ))}
-              </div>
-            </header>
-          </div>
-        </section>
       </div>
     </React.Fragment>
   )
 }
 
-Home.propTypes = {
+Sacraments.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default Home
+export default Sacraments

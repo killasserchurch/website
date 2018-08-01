@@ -22,67 +22,6 @@ const Footer = () => (
     <div className="inner">
       <ul className="icons">
         <li>
-          <a
-            href="https://ironcovesolutions.com/rss.xml"
-            rel="noopener noreferrer nofollow"
-            target="_blank"
-            className="icon alt fa-rss"
-          >
-            <span className="label">RSS</span>
-          </a>
-        </li>
-        <li>
-          <a
-            rel="noopener noreferrer nofollow"
-            href="https://twitter.com/Ironcove"
-            target="_blank"
-            className="icon alt fa-twitter"
-          >
-            <span className="label">Twitter</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.facebook.com/IronCoveSolutions"
-            rel="noopener noreferrer nofollow"
-            target="_blank"
-            className="icon alt fa-facebook"
-          >
-            <span className="label">Facebook</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.youtube.com/user/ironcovesolutions"
-            rel="noopener noreferrer nofollow"
-            target="_blank"
-            className="icon alt fa-youtube"
-          >
-            <span className="label">Youtube</span>
-          </a>
-        </li>
-        <li>
-          <a
-            rel="noopener noreferrer nofollow"
-            target="_blank"
-            href="https://www.linkedin.com/company/iron-cove-solutions/"
-            className="icon alt fa-linkedin"
-          >
-            <span className="label">LinkedIn</span>
-          </a>
-        </li>
-
-        <li>
-          <a
-            rel="noopener noreferrer nofollow"
-            target="_blank"
-            href="https://plus.google.com/+Ironcovesolutions"
-            className="icon alt fa-google-plus"
-          >
-            <span className="label">Google+</span>
-          </a>
-        </li>
-        <li>
           <Link
             to="/"
             title="Iron Cove Solutions Home"
@@ -99,43 +38,18 @@ const Footer = () => (
           </Link>
         </li>
         <li>
-          <Link to="/career" title="Careers">
-            <span className="label">Careers</span>
+          <Link to="/sacraments" title="Sacraments">
+            <span className="label">Sacraments</span>
           </Link>
         </li>
         <li>
-          <Link to="/case-studies" title="Case Studies">
-            <span className="label">Case Studies</span>
+          <Link to="/newsletter" title="Newsletter">
+            <span className="label">Newsletter</span>
           </Link>
         </li>
         <li>
-          <a
-            rel="noopener noreferrer nofollow"
-            target="_blank"
-            href="https://ironcove.teamwork.com"
-            title="Project Management"
-          >
-            <span className="label">Project Management</span>
-          </a>
-        </li>
-        <li>
-          <a
-            rel="noopener noreferrer nofollow"
-            target="_blank"
-            href="https://support.ironcovesolutions.com/hc/en-us"
-            title="Support"
-          >
-            <span className="label">Support</span>
-          </a>
-        </li>
-        <li>
-          <Link to="/video" title="Videos">
-            <span className="label">Video</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="/workflow" title="Workflows">
-            <span className="label">Workflow</span>
+          <Link to="/sacraments" title="Sacraments">
+            <span className="label">Sacraments</span>
           </Link>
         </li>
         <li>

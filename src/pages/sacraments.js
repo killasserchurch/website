@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet' // eslint-disable-line import/no-extraneous-dependencies
 
 // components
-import Home from 'components/Home'
+import Sacraments from 'components/Sacraments'
 
-class HomePage extends React.Component {
+class SacramentsPage extends React.Component {
   render() {
     const { title, description } = this.props.data.site.siteMetadata
 
@@ -16,55 +16,31 @@ class HomePage extends React.Component {
           <meta name="description" content={description} />
         </Helmet>
 
-        <Home data={this.props.data} />
+        <Sacraments data={this.props.data} />
       </div>
     )
   }
 }
 
-HomePage.propTypes = {
+SacramentsPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default HomePage
+export default SacramentsPage
 
-export const pageQuery = graphql`
-  query PageQuery {
+export const sacramentsPageQuery = graphql`
+  query SacramentsPageQuery {
     site {
       siteMetadata {
         title
         description
       }
     }
-    allContentfulBlog(
-      limit: 3
-      filter: { node_locale: { eq: "en-US" } }
-      sort: { fields: [publishDate], order: DESC }
-    ) {
-      edges {
-        node {
-          title
-          slug
-          body {
-            childMarkdownRemark {
-              excerpt(pruneLength: 150)
-            }
-          }
-          featuredImage {
-            resolutions(width: 300, height: 300) {
-              src
-            }
-          }
-        }
-      }
-    }
-    contentfulHome(slug: { eq: "home" }) {
+    contentfulSacraments(slug: { eq: "sacraments" }) {
       title
       slug
       metaDescription
       bannerTitle
-      bannerH2
-      bannerH3
       bannerText {
         childMarkdownRemark {
           html

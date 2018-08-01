@@ -8,24 +8,22 @@ const Banner = props => (
         <h1>Failte Cill Lasrach</h1>
       </header>
       <div className="content">
-        <h2>{props.bannerH2}</h2>
-        <p>{props.bannerH3}</p>
-        <ul className="actions">
-          <li>
-            <a href="/#aboveContact" className="button next scrolly">
-              Contact Us 
-            </a>
-          </li>
-        </ul>
+        {props.bannerText !== null || props.bannerText !== undefined ? (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: props.bannerText.childMarkdownRemark.html,
+            }}
+          />
+        ) : (
+          undefined
+        )}
       </div>
     </div>
   </section>
 )
 
 Banner.propTypes = {
-  bannerTitle: PropTypes.string.isRequired,
-  bannerH2: PropTypes.string.isRequired,
-  bannerH3: PropTypes.string.isRequired,
+  bannerText: PropTypes.object.isRequired,
 }
 
 export default Banner

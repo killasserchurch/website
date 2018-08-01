@@ -23,6 +23,24 @@ const Menu = props => (
         <li>
           <Link
             onClick={props.onToggleMenu}
+            to="/newsletter"
+            title="Newsletter"
+          >
+            Newsletter
+          </Link>
+        </li>
+        <li>
+          <Link
+            onClick={props.onToggleMenu}
+            to="/sacraments"
+            title="Sacraments"
+          >
+            Sacraments
+          </Link>
+        </li>
+        <li>
+          <Link
+            onClick={props.onToggleMenu}
             to="/#aboveContact"
             title="contact"
           >

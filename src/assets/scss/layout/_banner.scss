@@ -8,7 +8,10 @@
 
 #banner {
   @include vendor('align-items', 'center');
-  @include vendor('background-image', 'url("../images/banner.jpg")');
+  @include vendor(
+    'background-image',
+    'url("../images/black-and-white-cemetery-christ-op.jpg")'
+  );
   @include vendor('display', 'flex');
   @include padding(4em, 0, (2em, 0, 0, 0));
 
@@ -47,12 +50,15 @@
   }
 
   > .inner {
-    @include vendor('transition', (
-      'opacity 1.5s ease',
-      'transform 0.5s ease-out',
-      'filter 0.5s ease',
-      '-webkit-filter 0.5s ease'
-    ));
+    @include vendor(
+      'transition',
+      (
+        'opacity 1.5s ease',
+        'transform 0.5s ease-out',
+        'filter 0.5s ease',
+        '-webkit-filter 0.5s ease'
+      )
+    );
 
     padding: 0 !important;
     position: relative;
@@ -93,7 +99,6 @@
         font-size: 0.7em;
         font-weight: _font(weight-bold);
         letter-spacing: _font(letter-spacing-alt);
-        text-transform: uppercase;
       }
     }
   }
@@ -108,12 +113,36 @@
     }
   }
 
-  &.style1 { &::after { background-color: _palette(accent1); } }
-  &.style2 { &::after { background-color: _palette(accent2); } }
-  &.style3 { &::after { background-color: _palette(accent3); } }
-  &.style4 { &::after { background-color: _palette(accent4); } }
-  &.style5 { &::after { background-color: _palette(accent5); } }
-  &.style6 { &::after { background-color: _palette(accent6); } }
+  &.style1 {
+    &::after {
+      background-color: _palette(accent1);
+    }
+  }
+  &.style2 {
+    &::after {
+      background-color: _palette(accent2);
+    }
+  }
+  &.style3 {
+    &::after {
+      background-color: _palette(accent3);
+    }
+  }
+  &.style4 {
+    &::after {
+      background-color: _palette(accent4);
+    }
+  }
+  &.style5 {
+    &::after {
+      background-color: _palette(accent5);
+    }
+  }
+  &.style6 {
+    &::after {
+      background-color: _palette(accent6);
+    }
+  }
 
   .body.is-loading & {
     &::after {

@@ -9,20 +9,7 @@ const Contact = () => (
   <ContactWrapper id="contact">
     <div className="inner">
       <section>
-        <form
-          action="https://service.capsulecrm.com/service/newlead"
-          method="post"
-        >
-          <input
-            type="hidden"
-            name="FORM_ID"
-            value="e96df5fc-2286-41d1-b15d-97cbc4bf2325"
-          />
-          <input
-            type="hidden"
-            name="COMPLETE_URL"
-            value="https://ironcovesolutions.com/success"
-          />
+        <form>
           <div className="field half first">
             <label htmlFor="name">Name</label>
             <input type="text" required name="FIRST_NAME" id="name" />
@@ -50,8 +37,8 @@ const Contact = () => (
           <div className="contact-method">
             <span className="icon alt fa-envelope" />
             <h3>Email</h3>
-            <a href="mailto:sales@ironcovesolutions.com?subject=Interested in Learning more about Iron Cove Solutions">
-              sales@ironcovesolutions.com
+            <a href="mailto:	killasserchurch@gmail.com?subject=Interested in Learning more about Killasser Parish">
+              killasserchurch@gmail.com
             </a>
           </div>
         </section>
@@ -60,7 +47,7 @@ const Contact = () => (
             <span className="icon alt fa-phone" />
             <h3>Phone &amp; Hours</h3>
             <span>
-              <a href="tel:1-888-959-2825">(888) 959-2825</a>
+              <a href="tel:087-9548532">(087) 9548532</a>
               <br />
               Monday-Friday: 9am to 5pm
             </span>
@@ -71,9 +58,9 @@ const Contact = () => (
             <span className="icon alt fa-home" />
             <h3>Address</h3>
             <span>
-              8117 W. Manchester Ave<br />
-              Suite 915<br />
-              Playa Del Rey, CA 90293
+              Killasser Swinford<br />
+              Co Mayo, Ireland<br />
+              Eircode: F12AH68
             </span>
           </div>
         </section>

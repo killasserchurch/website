@@ -9,10 +9,6 @@ const About = props => {
     title,
     metaDescription,
     headerBackgroundImage,
-    sectionTwoHeading,
-    sectionTwoContentLeft,
-    sectionTwoContentMiddle,
-    sectionTwoContentRight,
     sectionFourHeading,
     sectionFourContent,
   } = props.data.contentfulAbout
@@ -29,52 +25,6 @@ const About = props => {
         }
       />
 
-      <section id="section-two">
-        <div className="inner">
-          <header>
-            {sectionTwoHeading !== null ? (
-              <BannerSection sectionContent={sectionTwoHeading} />
-            ) : (
-              undefined
-            )}
-          </header>
-          <div className="row">
-            <div className="4u 12u$(medium)">
-              {sectionTwoContentLeft !== null ? (
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: sectionTwoContentLeft.childMarkdownRemark.html,
-                  }}
-                />
-              ) : (
-                undefined
-              )}
-            </div>
-            <div className="4u 12u$(medium)">
-              {sectionTwoContentMiddle !== null ? (
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: sectionTwoContentMiddle.childMarkdownRemark.html,
-                  }}
-                />
-              ) : (
-                undefined
-              )}
-            </div>
-            <div className="4u 12u$(medium)">
-              {sectionTwoContentRight !== null ? (
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: sectionTwoContentRight.childMarkdownRemark.html,
-                  }}
-                />
-              ) : (
-                undefined
-              )}
-            </div>
-          </div>
-        </div>
-      </section>
       <section id="section-four">
         <div className="inner">
           <header>

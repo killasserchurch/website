@@ -44,22 +44,6 @@ export const aboutQuery = graphql`
           url
         }
       }
-      sectionTwoHeading
-      sectionTwoContentLeft {
-        childMarkdownRemark {
-          html
-        }
-      }
-      sectionTwoContentMiddle {
-        childMarkdownRemark {
-          html
-        }
-      }
-      sectionTwoContentRight {
-        childMarkdownRemark {
-          html
-        }
-      }
       sectionFourHeading
       sectionFourContent {
         childMarkdownRemark {

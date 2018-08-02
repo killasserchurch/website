@@ -43,7 +43,7 @@ const FooterCopyright = () => (
       </a>
       <a
         className="fa fa-phone"
-        href="tel:087-9548532"
+        href="tel:00353879548532"
         title="Killasser Parish Phone"
       >
         <span>Call</span>

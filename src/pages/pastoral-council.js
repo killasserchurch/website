@@ -32,7 +32,7 @@ export const pastoralCouncil = graphql`
         author
       }
     }
-    contentfulPastoralCouncil(slug: { eq: "pastoralcouncil" }) {
+    contentfulPastoralCouncil(slug: { eq: "pastoral-council" }) {
       title
       slug
       metaDescription

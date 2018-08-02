@@ -26,7 +26,7 @@ const FooterCopyright = () => (
       <span>&copy; 2018</span> |{' '}
       <span>
         <Link to="/" title="Killasser Parish">
-          Killasser Parish 
+          Killasser Parish
         </Link>
       </span>
     </p>
@@ -43,7 +43,7 @@ const FooterCopyright = () => (
       </a>
       <a
         className="fa fa-phone"
-        href="tel:"
+        href="tel:087-9548532"
         title="Killasser Parish Phone"
       >
         <span>Call</span>

@@ -9,10 +9,10 @@ const PastoralCouncilPage = props => (
   <div>
     <Helmet>
       <title>{`PastoralCouncil | ${props.data.site.siteMetadata.title}`}</title>
-      <meta
+      {/* <meta
         name="description"
         content={props.data.contentfulPastoralCouncil.metaDescription}
-      />
+      /> */}
     </Helmet>
     <PastoralCouncil data={props.data} />
   </div>

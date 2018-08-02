@@ -9,9 +9,7 @@ const Header = props => (
   <div>
     <header id="header" className="alt">
       <Link to="/" className="logo" title="Iron Cove Solutions">
-        <h1 style={{ color: '#000000', fontSize: '2.2rem' }}>
-          Killasser Parish
-        </h1>
+        <h1 style={{ color: '#000000' }}>Killasser Parish</h1>
       </Link>
       <nav>
         <ul className="flex-nav">

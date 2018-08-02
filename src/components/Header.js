@@ -26,6 +26,11 @@ const Header = props => (
             </Link>
           </li>
           <li>
+            <Link to="/masses" title="Masses">
+              Masses
+            </Link>
+          </li>
+          <li>
             <Link to="/sacraments" title="Sacraments">
               Sacraments
             </Link>

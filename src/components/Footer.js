@@ -43,6 +43,26 @@ const Footer = () => (
           </Link>
         </li>
         <li>
+          <Link to="/masses" title="Masses">
+            <span className="label">Masses</span>
+          </Link>
+        </li>
+        <li>
+          <Link to="/photos" title="Photos">
+            <span className="label">Photos</span>
+          </Link>
+        </li>
+        <li>
+          <Link to="/pastoral-council" title="Pastoral Council">
+            <span className="label">Pastoral Council</span>
+          </Link>
+        </li>
+        <li>
+          <Link to="/links" title="Links">
+            <span className="label">Links</span>
+          </Link>
+        </li>
+        <li>
           <Link to="/sacraments" title="Sacraments">
             <span className="label">Sacraments</span>
           </Link>

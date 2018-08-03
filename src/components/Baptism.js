@@ -3,6 +3,7 @@ import React from 'react' // eslint-disable-line import/no-extraneous-dependenci
 import PropTypes from 'prop-types'
 import BannerLanding from './BannerLanding'
 import BannerSection from './BannerSection'
+import CustomLink from './CustomLink'
 
 const Baptism = props => {
   const {
@@ -39,6 +40,9 @@ const Baptism = props => {
             undefined
           )}
         </div>
+      </section>
+      <section>
+        <CustomLink whereTo="/sacraments" whereToText="Back to Sacraments" />
       </section>
       <hr />
     </div>

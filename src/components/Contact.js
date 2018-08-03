@@ -9,14 +9,20 @@ const Contact = () => (
   <ContactWrapper id="contact">
     <div className="inner">
       <section>
-        <form>
+        <form
+          name="contact"
+          method="post"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <div className="field half first">
             <label htmlFor="name">Name</label>
-            <input type="text" required name="FIRST_NAME" id="name" />
+            <input type="text" name="name" id="name" />
           </div>
           <div className="field half">
             <label htmlFor="email">Email</label>
-            <input type="text" required name="EMAIL" id="email" />
+            <input type="text" name="email" id="email" />
           </div>
           <div className="field">
             <label htmlFor="message">Message</label>
